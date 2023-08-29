@@ -1,1 +1,5 @@
-
+print("Enter Length of Time in Days")
+days = int(input())
+print("Year :",days//365)
+print("Weeks :",(days//7)%52)
+print("Days :",(days%365)%7)
